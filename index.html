@@ -1,0 +1,130 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="/style.css">
+</head>
+<body>
+    <div class="full__Container" id="blur">
+        <div class="event__Header">
+            <h1 class="main__Heading">Event Highlights </h1>
+            
+        </div>
+
+        <div class="event__Container">
+            <div class="left__Event__Container">
+                <img src="/EVENT__IMAGE.jpeg" alt="" width="90%">
+                <div class="srijan__Content">
+                    <h2>Srijan2.0_&#60; &#62;</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                         Numquam, aliquid odit consequuntur recusandae
+                          eum fugiat quae maxime tenetur non praesentium.</p>
+                          <a href="#" onclick="SRIJAN()">READ MORE   &rarr;</a>
+                </div>
+            </div>
+            <div class="right__Event__Container">
+                <div class="event__Content event__Content__1">
+                    <div class="content__1">
+                        <h2>Empressario_&#60;&#62;</h2>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                             Numquam, aliquid odit consequuntur recusandae
+                              eum fugiat quae maxime tenetur non praesentium.</p>
+                              <a href="#" onclick="EMPRESSARIO()">READ MORE   &rarr;</a>
+                    </div>
+                </div>
+                <div class="event__Content event__Content__2">
+                    <div class="content__2">
+                        <h2>Bechkedikhao_&#60;&#62;</h2>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                             Numquam, aliquid odit consequuntur recusandae
+                              eum fugiat quae maxime tenetur non praesentium.</p>
+                              <a href="#" onclick="BECHKEDIKHAO()">READ MORE   &rarr;</a>
+                    </div>
+                </div>
+                <div class="event__Content event__Content__3">
+                    <div class="content__3">
+                        <h2>Tecnoesis_&#60;&#62;</h2>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                             Numquam, aliquid odit consequuntur recusandae
+                              eum fugiat quae maxime tenetur non praesentium.</p>
+                              <a href="#" onclick="TECNOESIS()">READ MORE   &rarr;</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div id="SRIJAN">
+        <h2>SRIJAN 2.0</h2>
+        <p>Lorem ipsum, dolor sit amet 
+            consectetur adipisicing elit. Autem, rem. lorem</p>
+            <a href="#" onclick="SRIJAN()">CLOSE</a>
+
+    </div>>
+    <div id="EMPRESSARIO">
+        <h2>EMPRESSARIO</h2>
+        <p>Lorem ipsum, dolor sit amet 
+            consectetur adipisicing elit. Autem, rem. Lorem ipsum dolor
+             consectetur adipisicing elit. Ducimus, modi! lorem</p>
+            <a href="#" onclick="EMPRESSARIO()">CLOSE</a>
+    </div>>
+
+    <div id="BECHKEDIKHAO">
+        <h2>BECHKEDIKHAO</h2>
+        <p>Lorem ipsum, dolor sit amet 
+            consectetur adipisicing elit. Autem, rem. lorem</p>
+            <a href="#" onclick="BECHKEDIKHAO()">CLOSE</a>
+
+    </div>>
+    <div id="TECNOESIS">
+        <h2>TECNOESIS</h2>
+        <p>Lorem ipsum, dolor sit amet 
+            consectetur adipisicing elit. Autem, rem. lorem</p>
+            <a href="#" onclick="TECNOESIS()">CLOSE</a>
+    </div>>
+
+
+
+    <script>
+        function SRIJAN() {
+            var blur=document.getElementById('blur');
+            blur.classList.toggle('active');
+
+            var popup=document.getElementById('SRIJAN');
+            popup.classList.toggle('active');
+
+        
+        }
+        function EMPRESSARIO() {
+            var blur=document.getElementById('blur');
+            blur.classList.toggle('active');
+
+            var popup=document.getElementById('EMPRESSARIO');
+            popup.classList.toggle('active');
+
+        
+        }
+        function BECHKEDIKHAO() {
+            var blur=document.getElementById('blur');
+            blur.classList.toggle('active');
+
+            var popup=document.getElementById('BECHKEDIKHAO');
+            popup.classList.toggle('active');
+
+        
+        }
+        function TECNOESIS() {
+            var blur=document.getElementById('blur');
+            blur.classList.toggle('active');
+
+            var popup=document.getElementById('TECNOESIS');
+            popup.classList.toggle('active');
+
+        
+        }
+    
+    </script>
+</body>
+</html>
