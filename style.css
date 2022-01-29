@@ -100,7 +100,7 @@ p{
         );
         top: 50%;
         position: absolute;
-        margin-left: 285px;
+        margin-left: 280px;
     
     }
 
@@ -192,25 +192,28 @@ p{
 
 .srijan__Content{
     margin-left: 3rem;
-    margin-right: 2rem;
+    margin-right: 1rem;
 }
 
 
 .content__1{
     margin-left: 15px;
     padding-top: 10px;
+    margin-right: 1rem;
     
    
 }
 .content__2{
     margin-left: 15px;
     padding-top: 10px;
+    margin-right: 1rem;
    
    
 }
 .content__3{
     margin-left: 15px;
     padding-top: 10px;
+    margin-right: 1rem;
    
 }
 
